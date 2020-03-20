@@ -6,13 +6,15 @@ end
 def name 
   @this_dogs_name
  end
-end
 
 def bark
   puts "Woof!"
  end
 end
+
 Fido = Dog.new 
 Fido.name ="Fido"
+Fido.bark ="Woof!"
+Fido.bark
 
 
