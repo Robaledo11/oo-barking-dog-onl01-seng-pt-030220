@@ -7,15 +7,14 @@ def name
   @this_dogs_name
  end
 
+def bark
+    puts "Woof!"
+  end
+ end
 
 Fido = Dog.new 
 Fido.name ="Fido"
 
-  def bark
-    puts "Woof!"
-  end
- end
- 
  fido = Dog.new      #initializing a new object/instance
  fido.bark 
 
