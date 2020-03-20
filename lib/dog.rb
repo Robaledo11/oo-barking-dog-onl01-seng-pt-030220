@@ -11,5 +11,12 @@ def name
 Fido = Dog.new 
 Fido.name ="Fido"
 
-
+class Dog
+  def bark
+    puts "Woof!"
+  end
+ end
+ 
+ fido = Dog.new      #initializing a new object/instance
+ fido.bark 
 
