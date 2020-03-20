@@ -7,8 +7,8 @@ def name
   @this_dogs_name
  end
 
-def bark(phrase)
-    phrase "Woof!"
+def bark
+    puts "Woof!"
   end
  end
 
