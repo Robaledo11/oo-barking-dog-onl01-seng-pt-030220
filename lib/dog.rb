@@ -15,6 +15,6 @@ def bark
 Fido = Dog.new 
 Fido.name ="Fido"
 
- Fido = Dog.new      #initializing a new object/instance
+ Fido = Dog.new      
  Fido.bark 
 
