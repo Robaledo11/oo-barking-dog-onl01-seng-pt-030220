@@ -11,7 +11,6 @@ def name
 Fido = Dog.new 
 Fido.name ="Fido"
 
-class Dog
   def bark
     puts "Woof!"
   end
