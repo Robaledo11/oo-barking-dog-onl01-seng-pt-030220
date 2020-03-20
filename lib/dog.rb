@@ -7,14 +7,14 @@ def name
   @this_dogs_name
  end
 
-def bark
-    puts "Woof!"
+def bark(phrase)
+    phrase "Woof!"
   end
  end
 
 Fido = Dog.new 
 Fido.name ="Fido"
 
- fido = Dog.new      #initializing a new object/instance
- fido.bark 
+ Fido = Dog.new      #initializing a new object/instance
+ Fido.bark 
 
